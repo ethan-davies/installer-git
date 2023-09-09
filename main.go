@@ -16,15 +16,15 @@ import (
 )
 
 // Change these variables your liking
-const gitHubAPIRepoURL = "https://api.github.com/repos/ethan-davies/mock" // Make sure you use https://api.github.com/repos/
-const gitHubRepoURL = "https://github.com/ethan-davies/mock"
-const name = "Mock Shell" // This will be used to inform the user
-const installFileName = "mock" // The folder where your binary will be installed
+const gitHubAPIRepoURL = "https://api.github.com/repos/ethan-davies/myapp" // Make sure you use https://api.github.com/repos/
+const gitHubRepoURL = "https://github.com/ethan-davies/myapp"
+const name = "myapp" // This will be used to inform the user
+const installFileName = "myapp" // The folder where your binary will be installed
 
-// These must be used in the gitub releases
-const windowsBinaryName = "mock-windows.exe"
-const linuxBinaryName = "mock-linux"
-const darwinBinaryName = "mock-macos"
+// These must be used in the gitub releases (make sure to have file extensions such as .exe)
+const windowsBinaryName = "myapp"
+const linuxBinaryName = "myapp"
+const darwinBinaryName = "myapp-macos"
 
 // WARNING: Editing the following code may break your installation. 
 func getInstallDir() string {
